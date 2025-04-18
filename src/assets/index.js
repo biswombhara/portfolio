@@ -33,6 +33,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import travel from "./travel.png";
 import portfolio from "./portfolio.png";
+import dapp from "./dapp.png";
 
 export {
   logo,
@@ -67,4 +68,5 @@ export {
   tripguide,
   travel,
   portfolio,
+  dapp,
 };

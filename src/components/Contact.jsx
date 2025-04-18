@@ -33,16 +33,19 @@ const Contact = () => {
 
     emailjs
       .send(
-        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,//
+        "service_hrfxz7r",
+        //import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,//
+        "template_w3fmhlu",
         {
           from_name: form.name,
-          to_name: "JavaScript Mastery",
+          to_name: "Biswombhara Patra",
           from_email: form.email,
-          to_email: "tonystark37p@gmail.com",
+          to_email: "biswombhara.patra@gmail.com",
           message: form.message,
         },
-        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+        //import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY//
+        "3AvUkVSjGXBhM-j_o"
       )
       .then(
         () => {

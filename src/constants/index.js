@@ -24,6 +24,7 @@ import {
   carrent,
   portfolio,
   travel,
+  dapp,
   threejs,
 } from "../assets";
 
@@ -77,10 +78,6 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
   },
   {
     name: "Tailwind CSS",
@@ -195,15 +192,15 @@ const projects = [
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "nodejs",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "mongodb",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "restapi",
         color: "pink-text-gradient",
       },
     ],
@@ -220,16 +217,16 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "solidity",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "metamask",
         color: "pink-text-gradient",
       },
     ],
-    image: travel,
-    source_code_link: "https://github.com/",
+    image: dapp,
+    source_code_link: "https://github.com/biswombhara/Navya_Exchange",
   },
 ];
 
