@@ -4,28 +4,24 @@ import {
   creator,
   web,
   javascript,
-  typescript,
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   java,
   mysql,
-  figma,
   docker,
   meta,
   starbucks,
-  tesla,
-  shopify,
-  carrent,
   portfolio,
   travel,
   dapp,
-  threejs,
+  weather,
+  simon,
+  tictactoe,
 } from "../assets";
 
 export const navLinks = [
@@ -127,12 +123,12 @@ const experiences = [
     company_name: "Apna College",
     icon: meta,
     iconBg: "#E6DEDD",
-    date: "July 2024 - Present",
+    date: "July 2024 - April 2025",
     points: [
-      "Solving doubts of students and providing quality solutions of their coding problems.",
-      "Working on MERN stack projects. Building from scratch to deployment of project.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-      "Helping 5000+ students as a mentor.",
+      "Solved doubts of students and provided them with optimized quality solutions of their coding problems.",
+      "Worked on MERN stack projects, from scratch to deployment of project.",
+      "Participated in code reviews and provided constructive feedback to other developers.",
+      "Helped 5000+ students as a mentor.",
     ],
   },
 ];
@@ -185,6 +181,7 @@ const projects = [
     ],
     image: portfolio,
     source_code_link: "https://github.com/biswombhara/portfolio",
+    deployed_link: "*",
   },
   {
     name: "Travel Booking",
@@ -206,11 +203,34 @@ const projects = [
     ],
     image: travel,
     source_code_link: "https://github.com/biswombhara/Airbnb_Clone",
+    deployed_link: "https://airbnb-clone-zjms.onrender.com/listings",
   },
   {
-    name: "Blockchain Wallet",
+    name: "Weather App",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A web application that provides real-time weather information for any location, including temperature, humidity, wind speed, and other relevant weather details.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "weatherapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "materialui",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: weather,
+    source_code_link: "https://github.com/biswombhara/Weather",
+    deployed_link: "https://weather-masterbisup.netlify.app/",
+  },
+  {
+    name: "Presale ICO DApp",
+    description:
+      "It is a decentralized application designed to facilitate the pre-sale of our native cryptocurrency, NAVYA. It provides a platform for early adopters to purchase NAVYA tokens before they are publicly listed on exchanges.",
     tags: [
       {
         name: "nextjs",
@@ -224,9 +244,58 @@ const projects = [
         name: "metamask",
         color: "pink-text-gradient",
       },
+      {
+        name: "nodejs",
+        color: "yellow-text-gradient",
+      },
     ],
     image: dapp,
-    source_code_link: "https://github.com/biswombhara/Navya_Exchange",
+    source_code_link: "https://github.com/biswombhara/Coindox_Frontend",
+    deployed_link: "*",
+  },
+  {
+    name: "Simon Game",
+    description:
+      "A game where the player has to repeat the sequence of lights by pressing the colored buttons in the correct order. The sequence is played by the computer and the player has to repeat it exactly.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: simon,
+    source_code_link: "https://github.com/biswombhara/Simon",
+    deployed_link: "https://simon-masterbisup.netlify.app/",
+  },
+  {
+    name: "Tic Tac Toe",
+    description:
+      "A game where two players take turns marking the spaces in a 3x3 grid. The player who succeeds in placing three of their marks in a horizontal, vertical, or diagonal row wins the game.",
+    tags: [
+      {
+        name: "html",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: tictactoe,
+    source_code_link: "https://github.com/biswombhara/Tic-Tac-Toe",
+    deployed_link: "https://masterbisup-tictactoe.netlify.app/",
   },
 ];
 
