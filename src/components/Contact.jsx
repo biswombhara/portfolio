@@ -33,19 +33,14 @@ const Contact = () => {
 
     emailjs
       .send(
-        // import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,//
-        "service_hrfxz7r",
-        //import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,//
-        "template_w3fmhlu",
+        process.env.EMAILJS_SERVICE_ID,
+        process.env.EMAILJS_TEMPLATE_ID,
         {
-          from_name: form.name,
-          to_name: "Biswombhara Patra",
-          from_email: form.email,
-          to_email: "biswombhara.patra@gmail.com",
-          message: form.message,
+          name: form.name,
+          title: form.title,
+          email: form.email,
         },
-        //import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY//
-        "3AvUkVSjGXBhM-j_o"
+        process.env.EMAILJS_PUBLIC_KEY
       )
       .then(
         () => {
