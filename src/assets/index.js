@@ -16,7 +16,7 @@ import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
 import tailwind from "./tech/tailwind.png";
-import threejs from "./tech/threejs.svg";
+import jarvis from "./tech/jarvis.png";
 import java from "./tech/java.png";
 import mysql from "./tech/mysql.png";
 
@@ -59,4 +59,5 @@ export {
   weather,
   simon,
   tictactoe,
+  jarvis,
 };

@@ -22,6 +22,7 @@ import {
   weather,
   simon,
   tictactoe,
+  jarvis,
 } from "../assets";
 
 export const navLinks = [
@@ -296,6 +297,28 @@ const projects = [
     image: tictactoe,
     source_code_link: "https://github.com/biswombhara/Tic-Tac-Toe",
     deployed_link: "https://masterbisup-tictactoe.netlify.app/",
+  },
+  {
+    name: "Jarvis",
+    description:
+      "A chatbot that can perform various tasks, such as answering questions, providing weather information, playing music, and more.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwindcss",
+        color: "green-text-gradient",
+      },
+      {
+        name: "gemini",
+        color: "pink-text-gradient",
+      }
+    ],
+    image: jarvis,
+    source_code_link: "https://github.com/biswombhara/Jarvis",
+    deployed_link: "https://jarvis-masterbisup.netlify.app/",
   },
 ];
 
