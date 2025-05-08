@@ -9,11 +9,11 @@ export default function Footer() {
         </p>
 
         <div className="text-[1.2rem]">
-          <a className="mr-4" href="https://www.linkedin.com/in/biswombhara-patra"><i class="fa-brands fa-linkedin"></i></a>
-          <a className="mr-4" href="https://github.com/biswombhara"><i class="fa-brands fa-github"></i></a>
-          <a className="mr-4" href="https://x.com/biswombhara"><i class="fa-brands fa-x-twitter"></i></a>
-          <a className="mr-4" href="https://www.instagram.com/master_bisup"><i class="fa-brands fa-instagram"></i></a>
-          <a className="mr-4" href="https://www.facebook.com/biswambhara.patra"><i class="fa-brands fa-facebook"></i></a>
+          <a className="mr-4" href="https://www.linkedin.com/in/biswombhara-patra"><i className="fa-brands fa-linkedin"></i></a>
+          <a className="mr-4" href="https://github.com/biswombhara"><i className="fa-brands fa-github"></i></a>
+          <a className="mr-4" href="https://x.com/biswombhara"><i className="fa-brands fa-x-twitter"></i></a>
+          <a className="mr-4" href="https://www.instagram.com/master_bisup"><i className="fa-brands fa-instagram"></i></a>
+          <a className="mr-4" href="https://www.facebook.com/biswambhara.patra"><i className="fa-brands fa-facebook"></i></a>
         </div>
       </div>
     </div>
