@@ -10,10 +10,12 @@ import { styles } from "../styles";
 const Tech = () => {
   return (
     <>
-    <p>My Tech Stack</p>
+    <p className={`${styles.sectionSubText} `}>My Tech Stack</p>
+            <h2 className={`${styles.sectionHeadText}`}>Technologies.</h2>
     <div className='flex flex-row flex-wrap justify-center gap-10'>
       {technologies.map((technology) => (
         <div className='w-28 h-28' key={technology.name}>
+          <img src={technology.icon} className="block xs:hidden" />
           <BallCanvas icon={technology.icon} />
         </div>
       ))}
